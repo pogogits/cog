@@ -1,0 +1,34 @@
+# OS noise
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Secrets
+*secret.asc
+*revoke.asc
+*private.asc
+*.rev
+*.key
+*.pem
+
+# Age keys
+age.key
+*.agekey
+
+# GPG local state
+*.gpg-id
+
+# Backup archives
+*.bak
+*.backup

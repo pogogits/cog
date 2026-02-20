@@ -1,0 +1,14 @@
+# Git-crypt everything by default
+* filter=git-crypt diff=git-crypt
+
+# Explicitly keep these in plaintext
+README.md !filter !diff
+LICENSE.md !filter !diff
+.gitattributes !filter !diff
+.gitignore !filter !diff
+
+# Keep anything in public/ public
+public/** !filter !diff
+
+# Encrypt somethings
+log/** filter=git-crypt diff=git-crypt
